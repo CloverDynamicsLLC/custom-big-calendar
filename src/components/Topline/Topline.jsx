@@ -7,7 +7,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 import { textDurationCalendar } from "../../constants/constants";
-import { allZones, defaultTZ } from "../Calendar/Timezone.js";
+import { allZones, defaultTZ } from "../Calendar/Timezone";
 
 const Topline = (props) => {
     const { setTimezone, timezone, setStateEvents, stateEvents } = props

@@ -10,7 +10,7 @@ import {
   timesToMultiply,
   durationsCalendar
 } from "../../constants/constants";
-import { defaultTZ } from "./Timezone.js";
+import { defaultTZ } from "./Timezone";
 
 const DragAndDropCalendar = withDragAndDrop(Calendar);
 
